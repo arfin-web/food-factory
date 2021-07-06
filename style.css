@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation-part{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+}
+.logo h1{
+    margin-left: 20px;
+}
+.logo h1 span{
+    color: red;
+}
+.menu{
+    width: 80%;
+}
+.menu-items{
+    margin-left: 730px;
+    margin-top: 25px;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.head-text-part{
+    width: 45%;
+    margin-top: 100px;
+}
+.head-image-part{
+    width: 45%;
+    margin-top: 100px;
+}
+
+.about-image-part{
+    width: 45%;
+    margin-top: 100px;
+}
+.about-text-part{
+    width: 45%;
+    margin-top: 100px;
+}
