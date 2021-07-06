@@ -2,30 +2,41 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.navigation-part{
+#navigation-part{
     display: flex;
     width: 100%;
+    background-image: linear-gradient(to top left, #5B06DF, #BE1AE1);
 }
 .logo{
     width: 20%;
 }
 .logo h1{
     margin-left: 20px;
+    color: #292A2D;
 }
 .logo h1 span{
-    color: red;
+    color: #F24350;
 }
 .menu{
     width: 80%;
 }
 .menu-items{
-    margin-left: 730px;
+    margin-left: 650px;
     margin-top: 25px;
 }
 .menu a{
     text-decoration: none;
     margin-left: 20px;
-    color: black;
+    color: whitesmoke;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image: linear-gradient(to right, #F24350, #FFBB2D);
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
 }
 
 .flex-container{
@@ -33,20 +44,64 @@ body{
     width: 100%;
     height: 100vh;
 }
+
 .head-text-part{
     width: 45%;
+    margin-left: 60px;
     margin-top: 100px;
+}
+.head-text-part h1{
+    color: #292A2D;
+    font-size: 50px;
+}
+.head-text-part h2{
+    color: #292A2D;
+    font-size: 30px;
+}
+.head-text-part span{
+    color: #F24350;
 }
 .head-image-part{
     width: 45%;
-    margin-top: 100px;
+}
+.head-image-part img{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.head-text-part p{
+    color: #292A2D;
+}
+.head-text-part p, .about-text-part p{
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
+#about-part{
+    background-image: url(images/bg1.jpeg);
+    background-repeat: no-repeat;
+}
 .about-image-part{
     width: 45%;
+}
+.about-image-part img{
+    width: 500px;
+    height: 450px;
     margin-top: 100px;
 }
 .about-text-part{
     width: 45%;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.about-text-part h2{
+    color: #F24350;
+    font-size: 30px;
+}
+.about-text-part p{
+    color: whitesmoke;
+}
+
+.food-item{
+    
 }
